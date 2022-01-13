@@ -1,0 +1,203 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+div.logo
+{
+    margin: 5px ;
+    padding: 5px;
+    text-align: center;
+    color: darkgreen;
+    font-size: 50px;
+    font-family: 'Orelega One', cursive;
+}
+div.input
+{
+    margin: 0px 0px;
+    background-color: yellowgreen;
+    padding: 10px;
+}
+li.inp
+{
+    display: inline;
+    padding: 15px 50px;   
+}
+div.options
+{
+    margin: 0px 0px;
+    background-color: black;
+    padding: 15px;
+}
+li.opt
+{
+    display: inline;
+    padding: 15px 40px;
+}
+li.opt a
+{
+    color: white;
+    text-decoration: none;
+}
+li.opt a:hover
+{
+    color: yellowgreen;
+}
+div.intro
+{
+    background-color: lightgrey;
+    position: relative;
+    text-align: left;  
+}
+div.center
+{
+    position: absolute;
+    top: 35%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-family: 'Inconsolata', monospace;
+}
+div.Products
+{
+    margin: 0 10px;
+}
+.Products:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+div.product
+{
+    border:1px solid black;
+    text-align: center;
+    float: left;
+    padding: 0 0px;
+    width: 20%;
+    margin: 30px ;
+}
+div.image
+{
+    width: 100%;
+}
+div.image img
+{
+    width: 100%;
+}
+
+div.info h4
+{
+    font-size: 18px;
+    padding: 0 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+div.info h1
+{
+    font-size: 25px;
+    padding: 0 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+div.addtocart
+{
+    width: 100%;
+}
+div.addtocart button
+{
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+}
+div.planters,div.soil,div.accessories
+{
+    position: relative;
+    text-align: center;
+}
+div.center1
+{
+    position: absolute;
+    top: 30%;
+    right: 20%;
+    font-size: 50px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 500;
+    padding: 10px;
+}
+div.center1 a
+{
+    color: black;
+    text-decoration: none;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 10px;
+}
+div.center1 a:hover
+{
+    color: black;
+    background-color: yellowgreen;
+}
+div.service
+{
+    margin: 10px 0px;
+    align-items: center;
+}
+div.ser
+{
+    text-align: center;
+    float: left;
+    padding: 20px 10px;
+    width: 40%;
+    margin: 30px 40px ;
+    background-color: black;
+    color: white;
+}
+div.service:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+div.ser2 a
+{
+    color: black;
+    background-color: orangered;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+div.ser2 a:hover
+{
+    background-color: greenyellow;
+}
+div.ser1 a
+{
+    color: black;
+    background-color: yellowgreen;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+div.ser1 a:hover
+{
+    background-color: orangered;
+}
+div.about
+{
+    background-color: lightgray;
+    padding: 35px 50px;
+}
+div.about h1
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+div.about h4
+{
+    font-size: 15px;
+    font-weight: normal;
+}
